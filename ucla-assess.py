@@ -10,7 +10,6 @@ headers = {
 }
 response = requests.request('GET', url, headers = headers, data = {})
 myjson = response.json()
-# csvheader = ['State Name', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2019 Factors']
 ourdata = []
 csvheader = ['State Name', 'Year', 'Population']
 
